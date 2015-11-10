@@ -1,0 +1,53 @@
+
+login1
+1| ****************************************
+1| ** Welcome to the information server. **
+1| ****************************************
+1| *** User '(no name)' entered from 127.0.0.1/8338. ***
+1| % 
+
+login2
+1| *** User '(no name)' entered from 127.0.0.1/8594. ***
+2| ****************************************
+2| ** Welcome to the information server. **
+2| ****************************************
+2| *** User '(no name)' entered from 127.0.0.1/8594. ***
+2| % 
+
+login3
+1| *** User '(no name)' entered from 127.0.0.1/8850. ***
+2| *** User '(no name)' entered from 127.0.0.1/8850. ***
+3| ****************************************
+3| ** Welcome to the information server. **
+3| ****************************************
+3| *** User '(no name)' entered from 127.0.0.1/8850. ***
+3| % 
+
+1 % name ApplePie
+1| *** User from 127.0.0.1/8850 is named 'ApplePie'. ***
+1| % 
+2| *** User from 127.0.0.1/8850 is named 'ApplePie'. ***
+3| *** User from 127.0.0.1/8850 is named 'ApplePie'. ***
+
+2 % name BakedCake
+1| *** User from 127.0.0.1/8850 is named 'BakedCake'. ***
+2| *** User from 127.0.0.1/8850 is named 'BakedCake'. ***
+2| % 
+3| *** User from 127.0.0.1/8850 is named 'BakedCake'. ***
+
+2 % who
+2| <ID> 	 <nickname> 	 <IP/port> 	 <indicate me>
+2| 1 	 ApplePie 	 127.0.0.1/8338
+2| 2 	 BakedCake 	 127.0.0.1/8594 	 <-me
+2| 3 	 (no name) 	 127.0.0.1/8850
+2| % 
+
+logout1
+1| *** User 'ApplePie' left. ***
+2| *** User 'ApplePie' left. ***
+3| *** User 'ApplePie' left. ***
+
+3 % name Cream
+
+login4
+connect fail

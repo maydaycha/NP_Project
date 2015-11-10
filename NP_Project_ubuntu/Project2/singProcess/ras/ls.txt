@@ -1,0 +1,4 @@
+bin
+core
+ls.txt
+test.html
